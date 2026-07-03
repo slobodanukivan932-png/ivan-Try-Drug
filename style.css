@@ -6,6 +6,7 @@ body {
     color: #ffffff;
 }
 
+/* Шапка сайту - тримає банер */
 header {
     background-color: #1a1a1a;
     padding: 10px 0;
@@ -16,6 +17,7 @@ header {
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
+/* Компактний банер по центру */
 .site-banner {
     height: 180px !important;
     width: auto !important;
@@ -25,6 +27,7 @@ header {
     margin: 0 auto !important;
 }
 
+/* Навігація під банером */
 nav {
     background-color: #1f1f1f;
     padding: 15px;
@@ -51,6 +54,7 @@ main {
     padding: 40px 20px;
 }
 
+/* Сітка з картками */
 .products {
     display: flex;
     flex-wrap: wrap;
